@@ -331,29 +331,26 @@ body {
 }
 
 /* Постояныые клиенты */
-.client {
-  width: 1170px;
-  height: 185px;
-  margin-right: auto;
-  margin-left: auto;
+.client-cont {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .client-icon-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .client-icon-item {
-  width: 88px;
-  height: 45px;
+  width: 170px;
+  height: 90px;
   margin-right: 30px;
-  padding-top: 95px;
-  padding-bottom: 95px;
+  margin-top: 50px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
-.client-title {
+.client-icon {
   display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
+  align-self: center;
 }
 /* Footer */
 .footer {
