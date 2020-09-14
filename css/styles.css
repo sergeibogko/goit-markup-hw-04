@@ -374,23 +374,28 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: calc((100% - 30px x 5) / 6);
+}
+.client-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+
 .client-icon-item:not(:last-child) {
   margin-right: 30px;
 }
-.client-icon-link {
+.client-cart-icon {
   fill: #afb1b8;
 }
-.client-icon-link :hover {
+.client-icon-link:hover .client-cart-icon {
   fill: #2196f3;
 }
-.client-icon-list :hover {
+.client-icon-link:hover {
   border: 1px solid #2196f3;
-  border-radius: 4px;
 }
 /* Footer */
 .footer {
