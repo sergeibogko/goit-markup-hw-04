@@ -112,6 +112,10 @@ body {
   text-decoration: none;
 }
 
+.header a:hover svg,
+.header a:focus svg {
+  fill: var(--accent-color);
+}
 .header a:hover,
 .header a:focus {
   color: var(--accent-color);
